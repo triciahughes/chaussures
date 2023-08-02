@@ -22,6 +22,7 @@ Hi there, I want to note that I was unfamiliar with next.js until this assessmen
 
 - Dynamic 'View Cart' button/component
 - Qty Button in Cart View
+- Image slider ui
 - Mobile compatibility
 - Tests
 
