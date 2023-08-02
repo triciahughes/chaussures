@@ -1,0 +1,61 @@
+:root {
+  --max-width: 1440px;
+  --border-radius: 12px;
+  /* --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace; */
+
+  --font-sans: "DM Sans", Arial, sans-serif;
+
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255;
+
+  --primary-glow: none; /* Remove the gradient */
+  --secondary-glow: none; /* Remove the gradient */
+
+  /* Light color scheme */
+  --tile-start-rgb: 239, 245, 249;
+  --tile-end-rgb: 228, 232, 233;
+  --tile-border: linear-gradient(
+    to right,
+    var(--line-light-grey),
+    var(--tile-end-rgb),
+    var(--line-light-grey)
+  );
+
+  --callout-rgb: var(--line-light-grey);
+  --callout-border-rgb: var(--dark-grey);
+  --card-rgb: var(--line-light-grey);
+  --card-border-rgb: var(--dark-grey);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font-sans), sans-serif;
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(var(--background-end-rgb));
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-family: var(--font-sans), sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
