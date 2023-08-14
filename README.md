@@ -1,3 +1,7 @@
+# E-Commerce Store
+
+This repository houses an e-commerce platform elegantly constructed using Next.js 13 and TypeScript.
+
 ## Getting Started
 
 First, create the database:
@@ -14,16 +18,20 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## About
+## Features:
 
-Hi there, I want to note that I was unfamiliar with next.js until this assessment. That said, this took me more than 3 hours to complete.
+- **Product Display**: Products are showcased in an aesthetically pleasing manner for optimal user browsing.
+- **Cart System**: An intuitive cart functionality ensures users can effortlessly select and review their desired items.
+- **SQLite Database Integration**: Unlike traditional hardcoding, the system leverages an SQLite database for product data storage, ensuring better flexibility and future scalability.
+- **Styling**: Custom CSS is applied throughout to deliver a consistent and engaging user interface.
 
-## What's not complete
+## Snapshots 📸:
 
-- Dynamic 'View Cart' button/component
-- Qty Button in Cart View
-- Image slider ui
-- Mobile compatibility
-- Tests
+**Home Page 🏠**
+![home page](https://i.imgur.com/KH3WzXt.png)
 
-_Let me know if you have any questions!_
+**Product Details 👟**
+![product details page](https://i.imgur.com/1XEkGfl.png)
+
+**Cart 🛒**
+![cart details page](https://i.imgur.com/EhJEMwh.png)
